@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>textutils</title>
+  
+</head>
+<body>
+
+  
+  {% comment %} <h1>{{name}} is from {{place}} and is born on {{dob}}</h1> {% endcomment %}
+  <form action='/analyze' method='get'>
+    <h1>lets create a form </h1>
+    <textarea name = 'text' style="width: 1389px; height: 162px;"> </textarea>
+    <br>
+    <input type = 'checkbox' name ='removepunc'>REMOVE PUNCTUATIONS 
+    <br>
+    <input type = 'checkbox' name ='fullcaps'>UPPER CASE
+    <br>
+    <input type = 'checkbox' name ='newlineremover'>NEW LINE REMOVER
+    <br>
+    <input type = 'checkbox' name ='extraspaceremover'>EXTRA SPACE REMOVER
+    <br>
+    <input type = 'checkbox' name ='countcharacter'>COUNT THE NUMBER OF CHARACTERS
+    <br>
+    <button type='submit' >ANALYZE TEXT</button>
+
+
+  </form>
+</body>
+</html>
+  
